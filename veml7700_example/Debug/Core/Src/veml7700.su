@@ -1,0 +1,14 @@
+veml7700.c:23:6:I2C_Write_16b	32	static
+veml7700.c:34:19:veml_PushState	32	static
+veml7700.c:82:19:veml_Setup	8	static
+veml7700.c:115:19:veml_SetMode	96	static
+veml7700.c:119:19:veml_AutoGain_On	4	static
+veml7700.c:124:19:veml_AutoGain_Off	4	static
+veml7700.c:130:19:veml_PowerSaveMode_On	8	static
+veml7700.c:135:19:veml_PowerSaveMode_Off	8	static
+veml7700.c:141:19:veml_Set_Gain	16	static
+veml7700.c:146:19:veml_Set_IntegrationTime	16	static
+veml7700.c:151:6:autoGain	16	static
+veml7700.c:189:7:veml_norm_data	24	static
+veml7700.c:226:7:veml_Get_Lux	48	static
+veml7700.c:265:7:veml_Get_White_Lux	48	static

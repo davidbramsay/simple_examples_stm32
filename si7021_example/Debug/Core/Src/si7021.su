@@ -1,0 +1,8 @@
+si7021.c:26:17:_read_id	40	static
+si7021.c:53:14:_read_and_convert_temperature	48	static
+si7021.c:72:10:si7021_read_id	32	static
+si7021.c:84:10:si7021_set_config	32	static
+si7021.c:93:10:si7021_set_heater_power	32	static
+si7021.c:102:7:si7021_measure_humidity	40	static
+si7021.c:123:7:si7021_measure_temperature	32	static
+si7021.c:137:7:si7021_read_previous_temperature	32	static
