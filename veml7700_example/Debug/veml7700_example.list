@@ -3900,9 +3900,9 @@ float veml_norm_data(uint16_t raw_data){
  8001d4e:	bf00      	nop
 	}
 
-	switch (VEML_State.gain){
+	switch (VEML_State.integrationTime){
  8001d50:	4b2b      	ldr	r3, [pc, #172]	; (8001e00 <veml_norm_data+0x110>)
- 8001d52:	f893 304e 	ldrb.w	r3, [r3, #78]	; 0x4e
+ 8001d52:	f893 304f 	ldrb.w	r3, [r3, #79]	; 0x4f
  8001d56:	3b01      	subs	r3, #1
  8001d58:	2b0b      	cmp	r3, #11
  8001d5a:	d846      	bhi.n	8001dea <veml_norm_data+0xfa>

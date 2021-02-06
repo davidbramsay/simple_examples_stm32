@@ -202,7 +202,7 @@ float veml_norm_data(uint16_t raw_data){
 		    break;
 	}
 
-	switch (VEML_State.gain){
+	switch (VEML_State.integrationTime){
 	  	case VEML7700_IT_25MS:
 	  		lux *= 4;
 	  		break;
